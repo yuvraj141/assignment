@@ -1,5 +1,73 @@
-header{width: 1320px;
-    height: 600px;
+header{max-width: 1600px;
     
-   background-image: url('images/Banner\ Image.png');
+}
+.banner{
+    border-radius: 16px;
+background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    width: 82%;
+    max-width: 1320px;
+    height: 600px;
+    margin: 0 auto;
+    background-image: url('images/Banner\ Image.png');
+}
+.banner-heading {
+    color: rgb(8, 68, 209);
+    padding: 177px 531px 383px 530px;
+}
+.banner-description{
+    font-size: 40px;
+    text-align: center;
+}
+/* main section */
+.container{
+    padding :100px 250px;
+    align-items: center;
+   max-width: 800px ;
+}
+.container .heading-title{
+    align-items: center;
+    padding-left: 300px;
+}
+.container .img{
+    width: 802.9px;
+height: 500px;
+flex-shrink: 0;
+}
+.container .color{
+   color: #F00 ;
+}
+    /* section */
+
+section{
+    margin-left: 140px;
+    margin-right: 140px;
+    max-width: 1320px;
+    padding: 100px auto;
+    background-image: url('images/Vectorrr.png');
+}
+.section{
+    display: flex;
+}
+.section-content{
+    padding-left: 120px;
+}
+.btn{
+    margin-left: 80px;
+    margin-top: 48px;
+}
+.section-heading{
+    margin-top: 126px;
+    margin-left: 80px;
+    color: white;
+font-family: Merriweather;
+}
+.section-description{
+    margin-top: 30px;
+    margin-left: 80px;
+    color: aliceblue;
+}
+.section .image{
+width: 319.83px;
+height: 464.662px;
+padding: 100px 20px 20px 20px;
 }
